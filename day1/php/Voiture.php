@@ -4,7 +4,6 @@ class Voiture {
     private $marque;
     private $modele;
 
-    // Constructeur
     public function __construct($marque, $modele) {
         $this->marque = $marque;
         $this->modele = $modele;

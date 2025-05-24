@@ -34,7 +34,7 @@ function estPalindrome(mot) {
 }
 
 
-// 4. Somme des multiples de 3 ou 5 : Boucles + Conditions
+// 4. Somme des multiples de 3 ou 5 : 
 function sommeMultiples3ou5(max = 1000) {
   let somme = 0;
   for (let i = 1; i < max; i++) {
@@ -45,7 +45,7 @@ function sommeMultiples3ou5(max = 1000) {
   return somme;
 }
 
-// 5. Inverser une chaîne : Boucle + Tableau (split) + reverse
+// 5. Inverser une chaîne
 function inverserChaine(chaine) {
   let resultat = "";
   for (let i = chaine.length - 1; i >= 0; i--) {
@@ -56,7 +56,7 @@ function inverserChaine(chaine) {
 }
 
 
-// 6. Fréquence des lettres : Boucle + Objet comme tableau associatif
+// 6. Fréquence des lettres :
 function frequenceLettres(chaine) {
   const freq = {};
   const texte = chaine.toLowerCase();
