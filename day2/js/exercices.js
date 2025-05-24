@@ -62,9 +62,9 @@ function groupByFrequency(arr) {
 }
 
 // les exemples
-console.log("Jour 1 :", removeDuplicates([1, 2, 2, 3, 4, 4, 5]));
-console.log("Jour 2 :", countVowels("Hello World"));
-console.log("Jour 3 :", findCommons([1, 2, 3, 4], [3, 4, 5, 6]));
-console.log("Jour 4 :", squareArray([1, 2, 3, 4]));
-console.log("Jour 5 :", customSort([4, 2, 5, 1, 3]));
-console.log("Jour 6 :", groupByFrequency(['a', 'b', 'a', 'c', 'b', 'a']));
+console.log(removeDuplicates([1, 2, 2, 3, 4, 4, 5]));
+console.log(countVowels("Hello World"));
+console.log(findCommons([1, 2, 3, 4], [3, 4, 5, 6]));
+console.log(squareArray([1, 2, 3, 4]));
+console.log(customSort([4, 2, 5, 1, 3]));
+console.log(groupByFrequency(['a', 'b', 'a', 'c', 'b', 'a']));

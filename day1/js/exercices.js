@@ -91,7 +91,7 @@ function calculer(a, b, operateur) {
 }
 
 console.log("1. FizzBuzz (jusqu'à 20)");
-fizzBuzz(20);
+console.log(fizzBuzz(20));
 
 console.log("\n2. Plus grand dans [4, 12, 3, 9]");
 console.log(plusGrand([4, 12, 3, 9]));
